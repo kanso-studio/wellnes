@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Studio Lotus — Wellness & Spa · Beograd</title>
+<meta name="description" content="Mali wellness studio u srcu Beograda. Masaže, yoga i spa tretmani u mirnom, tamnom ambijentu. Zakažite svoj termin.">
+<meta property="og:title" content="Studio Lotus — Wellness & Spa">
+<meta property="og:description" content="Masaže, yoga i spa tretmani. Zakažite termin.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✦</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= HEADER ================= -->
+<header class="header" id="header">
+  <div class="container header-inner">
+      <a href="#pocetna" class="logo">
+        <!-- Novi SVG sa gradijentom -->
+        <svg class="logo-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="38" height="38">
+          <defs>
+            <linearGradient id="copperGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" stop-color="#DFA37C" />
+              <stop offset="50%" stop-color="#C77D54" />
+              <stop offset="100%" stop-color="#8E5535" />
+            </linearGradient>
+          </defs>
+          <path d="M250,120 C215,200 210,300 245,400 C248,408 250,410 250,410 C250,410 252,408 255,400 C290,300 285,200 250,120 Z" fill="url(#copperGradient)"/>
+          <path d="M155,140 C185,200 220,290 240,400 C215,355 175,315 125,295 C110,255 115,190 155,140 Z" fill="url(#copperGradient)"/>
+          <path d="M345,140 C315,200 280,290 260,400 C285,355 325,315 375,295 C390,255 385,190 345,140 Z" fill="url(#copperGradient)"/>
+          <path d="M60,230 C95,300 140,355 235,410 C140,385 60,340 30,260 C30,245 40,235 60,230 Z" fill="url(#copperGradient)"/>
+          <path d="M440,230 C405,300 360,355 265,410 C360,385 440,340 470,260 C470,245 460,235 440,230 Z" fill="url(#copperGradient)"/>
+        </svg>
+        Studio Lotus
+      </a>
+    <nav class="nav" id="nav">
+      <a href="#usluge">Usluge</a>
+      <a href="#cenovnik">Cenovnik</a>
+      <a href="#raspored">Raspored</a>
+      <a href="#tim">Tim</a>
+      <a href="#galerija">Galerija</a>
+      <a href="#kontakt" class="btn btn-primary">Zakažite</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Meni" aria-expanded="false" aria-controls="nav">
+      <span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="pocetna">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+
+  <div class="hero-inner">
+    <p class="eyebrow">Wellness studio · Beograd</p>
+    <h1>Telo i um zaslužuju<br><em>predah</em></h1>
+    <p class="lead">Mali studio sa velikom pažnjom. Masaže, yoga i spa tretmani u mirnom, tamnom ambijentu — daleko od gradske buke. Za sat vremena koji je samo vaš.</p>
+    <div class="hero-actions">
+      <a href="#kontakt" class="btn btn-primary">Zakažite termin</a>
+      <a href="#usluge" class="btn btn-ghost">Pogledajte usluge</a>
+    </div>
+    <ul class="hero-facts">
+      <li><b>8+</b><span>Godina iskustva</span></li>
+      <li><b>4.9</b><span>Ocena klijenata</span></li>
+      <li><b>6</b><span>Vrsta tretmana</span></li>
+    </ul>
+  </div>
+
+  <div class="scroll-hint">Skrolujte</div>
+</section>
+
+<!-- ================= USLUGE ================= -->
+<section class="section" id="usluge">
+  <div class="container">
+    <div class="section-head section-head--center">
+      <p class="eyebrow">Naše usluge</p>
+      <h2>Nega koja počinje <em>pažnjom</em></h2>
+      <p class="lead">Svaki tretman prilagođavamo vašem telu i trenutnom stanju — bez šablona, bez žurbe.</p>
+    </div>
+
+    <div class="services">
+      <article class="service">
+        <div class="service-num">01</div>
+        <h3>Relax masaža</h3>
+        <p>Duboko opuštanje celog tela toplim uljima. Idealno za stres, napetost u leđima i bolji san.</p>
+        <div class="service-meta"><span>60 min</span><b>3.500 RSD</b></div>
+      </article>
+      <article class="service">
+        <div class="service-num">02</div>
+        <h3>Aromaterapija</h3>
+        <p>Masaža sa esencijalnim uljima prilagođenim vašem raspoloženju — umirujuća, osvežavajuća ili balansirajuća.</p>
+        <div class="service-meta"><span>75 min</span><b>4.200 RSD</b></div>
+      </article>
+      <article class="service">
+        <div class="service-num">03</div>
+        <h3>Yoga & stretching</h3>
+        <p>Vođeni časovi u malim grupama (do 6 osoba). Fokus na disanje, mobilnost i duboko istezanje.</p>
+        <div class="service-meta"><span>60 min</span><b>1.800 RSD</b></div>
+      </article>
+      <article class="service">
+        <div class="service-num">04</div>
+        <h3>Spa ritual</h3>
+        <p>Kompletan tretman: piling, obloga i masaža. Dva sata potpunog isključivanja od sveta.</p>
+        <div class="service-meta"><span>120 min</span><b>6.500 RSD</b></div>
+      </article>
+      <article class="service">
+        <div class="service-num">05</div>
+        <h3>Masaža lica</h3>
+        <p>Limfna drenaža i lifting masaža lica za svež ten i vidljivo manje napetosti.</p>
+        <div class="service-meta"><span>45 min</span><b>2.800 RSD</b></div>
+      </article>
+      <article class="service">
+        <div class="service-num">06</div>
+        <h3>Sportska masaža</h3>
+        <p>Dublji rad na mišićima za oporavak posle treninga i rasterećenje hroničnih tačaka.</p>
+        <div class="service-meta"><span>60 min</span><b>3.800 RSD</b></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CENOVNIK ================= -->
+<section class="section section--alt" id="cenovnik">
+  <div class="container">
+    <div class="section-head section-head--center">
+      <p class="eyebrow">Cenovnik</p>
+      <h2>Paketi za <em>redovnu</em> negu</h2>
+      <p class="lead">Pojedinačni tretmani su uvek dostupni. Ako dolazite redovno, paketi štede i do 20%.</p>
+    </div>
+
+    <div class="pricing">
+      <div class="price-card">
+        <h3>Pojedinačno</h3>
+        <p class="desc">Za prvi susret ili kada vam treba samo jedan sat predaha.</p>
+        <div class="price-amount">3.500 <small>RSD / tretman</small></div>
+        <ul class="price-features">
+          <li>Bilo koji tretman do 60 min</li>
+          <li>Termin po dogovoru</li>
+          <li>Plaćanje na licu mesta</li>
+        </ul>
+        <a href="#kontakt" class="btn btn-ghost">Zakažite</a>
+      </div>
+
+      <div class="price-card featured">
+        <span class="price-badge">Najpopularnije</span>
+        <h3>Paket 5 tretmana</h3>
+        <p class="desc">Za one koji su odlučili da briga o sebi postane navika.</p>
+        <div class="price-amount">14.900 <small>RSD · ušteda 2.600</small></div>
+        <ul class="price-features">
+          <li>5 tretmana po izboru (60 min)</li>
+          <li>Vredi 6 meseci</li>
+          <li>Prioritet pri zakazivanju</li>
+          <li>Poklon set ulja za dom</li>
+        </ul>
+        <a href="#kontakt" class="btn btn-primary">Zakažite</a>
+      </div>
+
+      <div class="price-card">
+        <h3>Poklon vaučer</h3>
+        <p class="desc">Najlepši poklon je vreme. Vaučer u štampanoj ili digitalnoj formi.</p>
+        <div class="price-amount">3.500 <small>RSD</small></div>
+        <ul class="price-features">
+          <li>Bilo koji tretman po izboru</li>
+          <li>Vredi 12 meseci</li>
+          <li>Personalizovana čestitka</li>
+        </ul>
+        <a href="#kontakt" class="btn btn-ghost">Naručite</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= RASPORED ================= -->
+<section class="section" id="raspored">
+  <div class="container">
+    <div class="section-head section-head--center">
+      <p class="eyebrow">Grupni programi</p>
+      <h2>Časovi u malim <em>grupama</em></h2>
+      <p class="lead">Držimo do privatnosti i pažnje — zato su naše grupe ograničene na maksimalno 6 osoba. Istražite programe koje nudimo.</p>
+    </div>
+
+    <div class="classes-grid">
+      <div class="class-card">
+        <div class="class-icon">🧘‍♀️</div>
+        <h3>Hatha Yoga</h3>
+        <p>Klasičan pristup asanama sa fokusom na pravilno držanje, sporo disanje i izgradnju snage. Idealno za početnike.</p>
+        <span class="class-meta">60 min · Svi nivoi</span>
+      </div>
+
+      <div class="class-card">
+        <div class="class-icon">🌙</div>
+        <h3>Yin Yoga</h3>
+        <p>Duboko opuštanje kroz duže zadržavanje položaja. Cilja na vezivno tkivo, zglobove i smirivanje nervnog sistema.</p>
+        <span class="class-meta">75 min · Nežno</span>
+      </div>
+
+      <div class="class-card">
+        <div class="class-icon">🤸‍♀️</div>
+        <h3>Deep Stretch</h3>
+        <p>Vođeno istezanje celog tela uz pomoć rekvizita. Savršeno za oporavak mišića nakon napornog dana ili treninga.</p>
+        <span class="class-meta">60 min · Svi nivoi</span>
+      </div>
+
+      <div class="class-card">
+        <div class="class-icon">🌬️</div>
+        <h3>Pranayama</h3>
+        <p>Umetnost svesnog disanja. Tehnike koje smanjuju stres, poboljšavaju koncentraciju i podižu nivo energije.</p>
+        <span class="class-meta">45 min · Za sve</span>
+      </div>
+    </div>
+
+
+  </div>
+</section>
+
+<!-- ================= RADNO VREME ================= -->
+<section class="section section--alt" id="radno-vreme">
+  <div class="container">
+    <div class="hours-simple">
+      <p class="eyebrow">Radno vreme</p>
+      <h2>Kada nas možete <em>posetiti</em></h2>
+
+      <p class="hours-days">Ponedeljak — Petak</p>
+      <p class="hours-time">09:00 — 21:00</p>
+
+      <p class="hours-note">Subotom i nedeljom primamo goste isključivo po prethodnom zakazivanju.</p>
+
+      <a href="tel:+381601234567" class="btn btn-primary">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.37 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.33 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/>
+        </svg>
+        Pozovite nas
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TIM ================= -->
+<section class="section section--alt" id="tim">
+  <div class="container">
+    <div class="section-head section-head--center">
+      <p class="eyebrow">Naš tim</p>
+      <h2>Ljudi koji vas <em>dočekuju</em></h2>
+      <p class="lead">Certifikovani terapeuti sa godinama prakse i — još važnije — sa sluhom za ono što vam treba.</p>
+    </div>
+
+    <div class="team">
+      <div class="member">
+        <div class="member-photo" style="background-image:url('https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=600&q=80&auto=format&fit=crop')"></div>
+        <h3>Marija Jović</h3>
+        <p class="role">Osnivač · Masaža</p>
+        <p>15 godina u wellnessu. Specijalizovana za terapijsku masažu leđa i rad sa hroničnom napetošću.</p>
+      </div>
+      <div class="member">
+        <div class="member-photo" style="background-image:url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80&auto=format&fit=crop')"></div>
+        <h3>Nikola Kostić</h3>
+        <p class="role">Yoga instruktor</p>
+        <p>Hatha i Yin yoga. Vodi časove sa fokusom na disanje i sigurnost pokreta za početnike.</p>
+      </div>
+      <div class="member">
+        <div class="member-photo" style="background-image:url('https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=600&q=80&auto=format&fit=crop')"></div>
+        <h3>Ana Simić</h3>
+        <p class="role">Spa terapeut</p>
+        <p>Aromaterapija i rituali za lice. Veruje da nega treba da bude spora, topla i bez žurbe.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= GALERIJA ================= -->
+<section class="section" id="galerija">
+  <div class="container">
+    <div class="section-head section-head--center">
+      <p class="eyebrow">Prostor</p>
+      <h2>Mir koji se <em>oseća</em></h2>
+      <p class="lead">Toplo svetlo, prirodni materijali, tišina. Zamenite ove fotografije svojima.</p>
+    </div>
+
+    <!-- Bento grid: 4 kolone · 3 reda · tačno popunjeno -->
+    <div class="gallery">
+      <div class="item" style="background-image:url('https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=1200&q=80&auto=format&fit=crop')"></div>
+      <div class="item" style="background-image:url('https://images.unsplash.com/photo-1596178065887-1198b6148b2b?w=600&q=80&auto=format&fit=crop')"></div>
+      <div class="item" style="background-image:url('https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=600&q=80&auto=format&fit=crop')"></div>
+      <div class="item" style="background-image:url('https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=600&q=80&auto=format&fit=crop')"></div>
+      <div class="item" style="background-image:url('https://images.unsplash.com/photo-1591343395902-1adcb454c4e2?w=600&q=80&auto=format&fit=crop')"></div>
+      <div class="item" style="background-image:url('https://images.unsplash.com/photo-1588286840104-8957b019727f?w=1400&q=80&auto=format&fit=crop')"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= UTISCI ================= -->
+<section class="section section--alt" id="utisci">
+  <div class="container">
+    <div class="section-head section-head--center">
+      <p class="eyebrow">Utisci</p>
+      <h2>Šta kažu <em>klijenti</em></h2>
+    </div>
+
+    <div class="quotes">
+      <blockquote class="quote">
+        <p>Došla sam sa bolovima u vratu, izašla kao nova osoba. Marija zna tačno gde da pritisne.</p>
+        <footer><b>Jovana M.</b>Relax masaža</footer>
+      </blockquote>
+      <blockquote class="quote">
+        <p>Prvi čas yoge u životu i nisam se osećala izgubljeno ni na sekund. Nikola objašnjava polako i strpljivo.</p>
+        <footer><b>Stefan R.</b>Hatha yoga</footer>
+      </blockquote>
+      <blockquote class="quote">
+        <p>Spa ritual je bio poklon od muža i sada se vraćam svakog meseca. Prostor je predivan, mirisan, tih.</p>
+        <footer><b>Ivana P.</b>Spa ritual</footer>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- ================= KONTAKT + FORMA ================= -->
+<section class="section" id="kontakt">
+  <div class="container">
+    <div class="contact">
+
+      <div class="contact-info">
+        <p class="eyebrow eyebrow--left">Rezervacija</p>
+        <h2>Zakažite svoj <em>termin</em></h2>
+        <p class="lead">Popunite formu i otvoriće se WhatsApp sa gotovom porukom — pošaljite je i potvrdiću vam termin u roku od par sati.</p>
+
+        <ul class="info-list">
+          <li>
+            <span class="ico">◈</span>
+            <div>
+              <div class="lbl">Adresa</div>
+              <a class="val" href="https://maps.google.com/?q=Bulevar+oslobođenja+25+Beograd" target="_blank" rel="noopener">Bulevar oslobođenja 25<br>Beograd</a>
+            </div>
+          </li>
+          <li>
+            <span class="ico">◉</span>
+            <div>
+              <div class="lbl">Telefon</div>
+              <a class="val" href="tel:+381601234567">+381 60 123 4567</a>
+            </div>
+          </li>
+          <li>
+            <span class="ico">✉</span>
+            <div>
+              <div class="lbl">Email</div>
+              <a class="val" href="mailto:info@studiolotus.rs">info@studiolotus.rs</a>
+            </div>
+          </li>
+          <li>
+            <span class="ico">◷</span>
+            <div>
+              <div class="lbl">Radno vreme</div>
+              <div class="val">Pon–Pet · 09:00–21:00<br>Subota · Po zakazivanju<br>Nedelja · Po zakazivanju</div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <!-- ============ FORMA ============ -->
+      <form id="bookingForm" class="booking-form" novalidate>
+        <div class="field">
+          <label for="ime">Ime i prezime *</label>
+          <input type="text" id="ime" name="ime" required placeholder="npr. Marija Petrović" autocomplete="name">
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="tel">Telefon *</label>
+            <input type="tel" id="tel" name="tel" required placeholder="06X XXX XXXX" autocomplete="tel">
+          </div>
+          <div class="field">
+            <label for="usluga">Usluga *</label>
+            <select id="usluga" name="usluga" required>
+              <option value="">Odaberite…</option>
+              <option>Relax masaža (60 min)</option>
+              <option>Aromaterapija (75 min)</option>
+              <option>Yoga & stretching (60 min)</option>
+              <option>Spa ritual (120 min)</option>
+              <option>Masaža lica (45 min)</option>
+              <option>Sportska masaža (60 min)</option>
+              <option>Poklon vaučer</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="datum">Željeni datum</label>
+            <input type="date" id="datum" name="datum">
+          </div>
+          <div class="field">
+            <label for="vreme">Željeno vreme</label>
+            <select id="vreme" name="vreme">
+              <option value="">Bilo kad</option>
+              <option>09:00 – 12:00</option>
+              <option>12:00 – 15:00</option>
+              <option>15:00 – 18:00</option>
+              <option>18:00 – 21:00</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="napomena">Napomena (opciono)</label>
+          <textarea id="napomena" name="napomena" placeholder="npr. prvi put dolazim, imam napetost u leđima…"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm0 18a8 8 0 0 1-4.1-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8 8 0 1 1 12 20zm4.4-5.9c-.2-.1-1.4-.7-1.6-.8s-.4-.1-.5.1-.6.8-.8 1-.3.2-.5.1a6.5 6.5 0 0 1-3.2-2.8c-.2-.4.2-.4.6-1.2a.5.5 0 0 0 0-.5l-.7-1.7c-.2-.4-.4-.4-.5-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-1 2.2 5.3 5.3 0 0 0 1.1 2.8 12 12 0 0 0 4.6 4c.6.3 1.1.4 1.5.5a3.6 3.6 0 0 0 1.7.1 2.8 2.8 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.2-.2-.5-.3z"/></svg>
+          Pošaljite na WhatsApp
+        </button>
+
+        <p class="form-note">
+          Ne koristite WhatsApp? Pišite na
+          <a href="mailto:info@studiolotus.rs">info@studiolotus.rs</a>
+          ili pozovite <a href="tel:+381601234567">060 123 4567</a>.
+        </p>
+        <p class="form-status" id="formStatus"></p>
+      </form>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo"><span class="logo-mark">✦</span> Studio Lotus</div>
+        <p>Mali wellness studio u srcu grada. Mesto gde sat vremena ponovo pripada vama.</p>
+      </div>
+      <div>
+        <h4>Navigacija</h4>
+        <ul>
+          <li><a href="#usluge">Usluge</a></li>
+          <li><a href="#cenovnik">Cenovnik</a></li>
+          <li><a href="#raspored">Raspored</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Kontakt</h4>
+        <ul>
+          <li>Bulevar oslobođenja 25</li>
+          <li><a href="tel:+381601234567">+381 60 123 4567</a></li>
+          <li><a href="mailto:info@studiolotus.rs">info@studiolotus.rs</a></li>
+          <li><a href="https://instagram.com" target="_blank" rel="noopener">Instagram ↗</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Studio Lotus · Sva prava zadržana</span>
+      <span>Beograd · Srbija</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ================= MOBILE CTA ================= -->
+<div class="mobile-cta">
+  <a href="#kontakt" class="btn btn-primary">Zakažite termin</a>
+</div>
+
+<script>
+/* ============ KONFIGURACIJA — OVDE MENJATE ============ */
+const CONFIG = {
+  whatsapp: '381601234567'   // vaš broj, bez + i bez vodeće nule
+};
+/* ====================================================== */
+
+// 1. Godina u footeru
+document.getElementById('year').textContent = new Date().getFullYear();
+
+// 2. Mobilni meni
+const burger = document.getElementById('burger');
+const nav = document.getElementById('nav');
+burger.addEventListener('click', () => {
+  const open = nav.classList.toggle('open');
+  burger.setAttribute('aria-expanded', open);
+  document.body.style.overflow = open ? 'hidden' : '';
+});
+nav.addEventListener('click', e => {
+  if (e.target.tagName === 'A') {
+    nav.classList.remove('open');
+    burger.setAttribute('aria-expanded', 'false');
+    document.body.style.overflow = '';
+  }
+});
+
+// 3. Header pri skrolovanju
+const header = document.getElementById('header');
+const onScroll = () => header.classList.toggle('scrolled', window.scrollY > 20);
+window.addEventListener('scroll', onScroll, { passive: true });
+onScroll();
+
+// 4. Datum — ne dozvoli datum u prošlosti
+const datumInput = document.getElementById('datum');
+datumInput.min = new Date().toISOString().split('T')[0];
+
+// 5. Forma → WhatsApp
+const form = document.getElementById('bookingForm');
+const status = document.getElementById('formStatus');
+
+form.addEventListener('submit', e => {
+  e.preventDefault();
+
+  const ime = form.ime.value.trim();
+  const tel = form.tel.value.trim();
+  const usluga = form.usluga.value;
+
+  if (!ime || !tel || !usluga) {
+    status.className = 'form-status err';
+    status.textContent = 'Molimo popunite ime, telefon i uslugu.';
+    return;
+  }
+
+  const datum = form.datum.value
+    ? new Date(form.datum.value).toLocaleDateString('sr-RS', { day: '2-digit', month: '2-digit', year: 'numeric' })
+    : 'nije odabran';
+  const vreme = form.vreme.value || 'bilo kad';
+  const napomena = form.napomena.value.trim() || '—';
+
+  const tekst =
+`Zdravo! Želim da zakažem termin ✦
+
+Ime: ${ime}
+Telefon: ${tel}
+Usluga: ${usluga}
+Datum: ${datum}
+Vreme: ${vreme}
+Napomena: ${napomena}`;
+
+  window.open(`https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(tekst)}`, '_blank');
+
+  status.className = 'form-status ok';
+  status.textContent = 'WhatsApp se otvara… Ako se ne otvori, pozovite nas direktno.';
+});
+</script>
+</body>
+</html>
